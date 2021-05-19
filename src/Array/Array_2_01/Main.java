@@ -1,4 +1,4 @@
-package String.Array_2_01;
+package Array.Array_2_01;
 
 import java.util.*;
 
