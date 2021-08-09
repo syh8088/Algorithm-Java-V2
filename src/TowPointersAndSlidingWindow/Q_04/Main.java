@@ -26,7 +26,7 @@ public class Main {
     public int solution(int n, int m, int[] arr) {
 
         int answer = 0, sum = 0, lt = 0;
-        
+
         return answer;
     }
 
