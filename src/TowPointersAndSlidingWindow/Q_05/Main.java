@@ -20,9 +20,6 @@ public class Main {
 
         int answer = 0, sum = 0, lt = 0;
 
-
-
-
         return answer;
     }
 
