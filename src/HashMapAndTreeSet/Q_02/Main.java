@@ -26,28 +26,7 @@ public class Main {
 
         String answer = "YES";
         HashMap<Character, Integer> hashMap1 = new HashMap<>();
-        HashMap<Character, Integer> hashMap2 = new HashMap<>();
-
-        char[] chars1 = s1.toCharArray();
-        char[] chars2 = s2.toCharArray();
-
-        for (char c : chars1) {
-            hashMap1.put(c, hashMap1.getOrDefault(c, 0) + 1);
-        }
-
-        for (char c : chars2) {
-            hashMap2.put(c, hashMap2.getOrDefault(c, 0) + 1);
-        }
-
-        for (Character character : hashMap1.keySet()) {
-            Integer integer1 = hashMap1.get(character);
-            Integer integer2 = hashMap2.get(character);
-
-            if (!integer1.equals(integer2)) {
-                return "NO";
-            }
-        }
-
+        
         return answer;
     }
 }
