@@ -28,7 +28,7 @@ public class Main {
 
         int answer = 0, cnt = 0, lt = 0;
 
-        
+
         return answer;
     }
 
