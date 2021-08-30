@@ -26,7 +26,7 @@ public class Main {
 
         String answer = "YES";
         HashMap<Character, Integer> hashMap1 = new HashMap<>();
-        
+
         return answer;
     }
 }
